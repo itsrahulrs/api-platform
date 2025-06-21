@@ -21,29 +21,29 @@ The platform provides:
 
 ## Setup Instructions (DDEV)
 
-### 1️ Clone the repo
+### 1️. Clone the repo
 ```bash
 git clone git@github.com:itsrahulrs/api-platform.git
 cd api-platform
 ```
 
-### 2 Start DDEV
+### 2. Start DDEV
 ```bash
 ddev start
 ```
 
-### 3️ Install dependencies
+### 3️. Install dependencies
 ```bash
 ddev composer install
 ```
 
-### 4 Set up environment
+### 4. Set up environment
 ```bash
 cp .env.example .env
 ddev php artisan key:generate
 ```
 
-### 5 Run migrations + seeders
+### 5. Run migrations + seeders
 ```bash
 ddev php artisan migrate --seed
 ```
@@ -70,7 +70,7 @@ ddev artisan serve
 
 ## Accessing the app
 
-- Your Laravel app will be available at:
+Your Laravel app will be available at:
 ```bash
 https://api-platform.ddev.site
 ```
